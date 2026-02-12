@@ -1,0 +1,29 @@
+.carouselWrapper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper {
+  padding-bottom: 10px;
+}
+
+/* Make sure slides don't stretch weirdly */
+.swiper-slide {
+  width: auto;
+}
+
+/* Navigation button positioning (if you add custom buttons later) */
+.navButton {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.leftNav {
+  left: -20px;
+}
+
+.rightNav {
+  right: -20px;
+}

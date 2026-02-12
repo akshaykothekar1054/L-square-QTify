@@ -1,0 +1,34 @@
+.card {
+  width: 160px;
+  cursor: pointer;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 205px;   /* 👈 correct ratio like Figma */
+  border-radius: 10px;
+  overflow: hidden;   /* ✅ prevent image overflow */
+  background-color: white;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom {
+  background-color: white;
+  padding: 6px 8px;
+  border-radius: 0 0 10px 10px;
+}
+
+.chip {
+  font-size: 10px !important;
+}
+
+.title {
+  margin-top: 8px;
+  font-size: 14px;
+  color: white;
+}
